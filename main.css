@@ -1,4 +1,17 @@
 body{ margin: 0; padding: 10; font-size: 40; }
-.header{background-color: blueviolet; padding: 5%; text-align:  centre ; }
+.header{background-color: blueviolet; padding: 3%; text-align:  centre ; }
 .container{ background-color: red; padding: 5%;  }
-.footer{ background-color: darkblue; padding: 5%; text-align: centre;}
+.footer{ background-color: darkblue; padding: 3%; text-align: centre;}
+
+nav{background: skyblue;}
+nav ul{margin: 0px; padding: 0;}
+nav ul li{
+	list-style: none; float: centre ; margin: 0 %; padding: 3%; background: light green;
+}
+
+.maintitle {
+	background-color: blueviolet;
+	padding: 20px;
+	text-align: centre ;
+
+}
