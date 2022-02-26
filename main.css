@@ -1,17 +1,74 @@
 body{ margin: 0; padding: 10; font-size: 40; }
 .header{background-color: blueviolet; padding: 3%; text-align:  centre ; }
-.container{ background-color: red; padding: 5%;  }
-.footer{ background-color: darkblue; padding: 3%; text-align: centre;}
+.container{ background-color: lavender; padding: 5%;  }
+.footer{ background-color: skyblue; padding: 5%; text-align: centre;}
 
-nav{background: skyblue;}
-nav ul{margin: 0px; padding: 0;}
-nav ul li{
-	list-style: none; float: centre ; margin: 0 %; padding: 3%; background: light green;
+nav{background: lightcoral; ;
+ height: 10vh;
+ 
+
+
 }
+nav ul{
+	display: flex;
+	width: 40vw;
+	align-items: center;
+	justify-content: space-between;
+	
+  }
+  nav ul li{
+	display: inline;
+	font-weight: bold;
+	
+  
+  
+  }
+  
+nav ul li:hover{ background: light green;}
+
 
 .maintitle {
-	background-color: blueviolet;
+	background-color: lightgoldenrodyellow;
 	padding: 20px;
-	text-align: centre ;
+	text-align: center;
 
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+h1{
+	margin: 20px;
+}
+
+.header{
+	display: block;
+	background-color: blueviolet;
+	height: 250px;
+	margin-top:-25px ;
+
+}
+.class1{
+	display: block;
+	background-color: lightgoldenrodyellow;
+	float: left;
+	height: 400px;
+	width: 50%;
+
+
+}
+.class2{
+	display: block;
+	background-color: lavender;
+	float: right;
+	height: 400px;
+	width: 50%;
+}
+.footer{
+	display: block;
+	background-color: lightgoldenrodyellow;
+	clear: both;
+	height: 200px;
 }
