@@ -4,46 +4,48 @@
 <title>Form</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 <form>
-<div class="maintitle">
-    		Personal Information:
-    	</div>	
+<div class="maintitle1">
+    		Personal Information:<br>
 	First name: <br>
 	<input type="text" name="firstname"><br>
 	Last name:<br>
 	<input type="text" name="lastname"><br>
+  </div>  
 </form>
-  <form>
-  	<div class="maintitle">
-    		Gender:
-    	</div>
-  	<input type="radio" name="gender" value="male"checked> Male<br> 
+  <form>	
+  <form action="/action_page.php">
+    <div class="maintitle3">
+      Date of Birth:<br>
+    <input type="date"name="DOB" max="1950-1-1"><br>
+  </div>
+  </form>
+  <div class="maintitle2">
+        Gender:<br>
+    <input type="radio" name="gender" value="male"checked> Male<br> 
     <input type="radio" name="gender" value="female"checked>Female<br>
-  	<input type="radio" name="gender" value="other"checked>other<br>
+    <input type="radio" name="gender" value="other"checked>other<br>
+  </div>
   </form>
   <form>
-    <div class="maintitle">
-      DOB
-    <input type="date" name="DOB"><br>
-  
-  </form>
-
-  <form>
-  	<div class="maintitle">
-  		Login :
-  	</div>
-  	User name:<br>
-  	<input type="text" name="User ID"><br>
-  	User Password:<br>
-  	<input type="text" name="Password"><br>
-  </form>
-  <form>
-    <div class="maintitle">
-      Email address
-    </div>
+    <div class="maintitle5">
+      Email address:<br>
     <input type="text" name="email address"><br>
   </form>
+  </div>
   <form>
-    <input type="button" onclick=" alert ('submit')" value="Click Me!"> </form>
+    <div class="maintitle4">
+      Login :<br>
+    User name:<br>
+    <input type="text" name="User ID"><br>
+    User Password:<br>
+    <input type="text" name="Password"><br>
+    </div>
+  <div class="maintitle6">
+  <form>
+    <input type="button" onclick=" alert ('submit')" value="Click Me!"> 
+  </div>
+  </form>
   </head>
+  <a href="index.html">Back to home</a> 
 </body>
 </html>

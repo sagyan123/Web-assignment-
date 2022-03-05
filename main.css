@@ -11,14 +11,14 @@ body{ margin: 0; padding: 10; font-size: 40; }
     line-height: 70px;
 }
 .menu {
-    margin: 0 30px 0 0;
+    margin: 0 10px 0 0;
 }
 .menu a {
     clear: right;
     text-decoration: none;
     color: black;
     margin: 0 10px;
-    line-height: 70px;
+    line-height: 20px;
 }
 
 span {
@@ -80,10 +80,85 @@ nav ul li:hover{ background: light green;}
 .grid container{
 	display: grid;
 }
-.maintitle {
-	background-color: lightgoldenrodyellow;
+
+body{
+	margin: 20px;
 	padding: 20px;
+
+}
+h1{
+	margin: 0px;
 	text-align: center;
+}
+
+.header1{
+	display: block;
+	background-color: blanchedalmond;
+	height: 200px;
+	margin-top:0px ;
+
+}
+.grade1{
+	display: block;
+	background-color: lightgoldenrodyellow;
+	float: left;
+	height: 350px;
+	width: 65%;
+
+
+}
+.grade2{
+	display: block;
+	background-color: lavender;
+	float: right;
+	height: 350px;
+	width: 35%;
+}
+
+.footer1{
+ background-color: royalblue; 
+ padding: 10%; 
+ text-align: centre;
+}
+
+.maintitle1{
+	background-color: lightgoldenrodyellow;
+	padding: 40px;
+	text-align: left;
+
+}
+
+.maintitle2{
+	background-color:green;
+	padding: 40px;
+	text-align: left;
+
+}
+
+.maintitle3{
+	background-color: yellowgreen;
+	padding: 40px;
+	text-align: left;
+
+}
+
+.maintitle4{
+	background-color: royalblue;
+	padding: 40px;
+	text-align: left;
+
+}
+
+.maintitle5{
+	background-color: brown;
+	padding: 40px;
+	text-align: left;
+}
+
+.maintitle6{
+	background-color: black;
+	padding: 40px;
+	text-align: left;
 
 }
 
@@ -96,37 +171,46 @@ h1{
 	margin: 20px;
 }
 
-.header{
+.header2{
 	display: block;
 	background-color: blueviolet;
 	height: 250px;
 	margin-top:-25px ;
 
 }
-.class1{
+.grade3{
 	display: block;
 	background-color: lightgoldenrodyellow;
 	float: left;
-	height: 400px;
+	height: 350px;
 	width: 50%;
 
 
 }
-.class2{
+.grade4{
 	display: block;
 	background-color: lavender;
 	float: right;
-	height: 400px;
+	height: 350px;
 	width: 50%;
 }
 
-.footer1{
+.footer2{
  background-color: royalblue; 
- padding: 5%; 
+ padding: 10%; 
  text-align: centre;
 }
-
-
+.wrapper{
+display: grid;
+grid-template-columns: 33.33% 33.33% 33.33%;	
+}
+.wrapper > div{
+	background-color: #54D17A;
+	padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+	background-color: #5461d1;
+}
 
 
 
